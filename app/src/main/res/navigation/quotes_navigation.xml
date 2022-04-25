@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/quote_nav_graph"
+    app:startDestination="@id/quoteFragment">
+    <fragment
+        android:id="@+id/quoteFragment"
+        android:name="dev.acuon.dailyquotesapp.ui.QuoteFragment">
+        <action
+            android:id="@+id/action_quoteFragment_to_bookmarkFragment"
+            app:destination="@id/bookmarkFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookmarkFragment"
+        android:name="dev.acuon.dailyquotesapp.ui.BookmarkFragment">
+    </fragment>
+</navigation>

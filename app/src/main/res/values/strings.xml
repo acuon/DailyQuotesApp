@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">DailyQuotesApp</string>
+
+    <string name="myBookMarks">My Bookmarks</string>
+
+    <string name="quote">\"%1$s\"</string>
+    <string name="author">- %1$s</string>
+
+    <string name="info">
+        Swipe left on the card to load next Quote.
+        Inspirational quotes provided by: ZenQuotes API.
+    </string>
+    <string name="release">
+        Release to load the next Quote!
+    </string>
+
+    <string name="noBookmarks">No Bookmarked Quote to show!</string>
+
+    <string name="bookmarks">Go to your Bookmarked Quotes.</string>
+    <string name="back">Go back to Quotes page.</string>
+
+    <string name="toogleBookMark">Bookmark</string>
+    <string name="share_description">Share Quote as an image</string>
+    <string name="save_quote">Save quote</string>
+
+    <string name="daily_notif_tag">daily_motivation</string>
+    <string name="notif_title">Your daily dose of motivation is here!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
