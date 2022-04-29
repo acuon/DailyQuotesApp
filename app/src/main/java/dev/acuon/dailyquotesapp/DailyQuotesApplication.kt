@@ -26,10 +26,9 @@ class DailyQuotesApplication : Application() {
         WorkManager
             .getInstance(this)
             .enqueueUniquePeriodicWork(
-                getString(R.string.daily_notif_tag),
+                getString(R.string.daily_notification_tag),
                 ExistingPeriodicWorkPolicy.KEEP,
                 workRequest
             )
     }
-
 }

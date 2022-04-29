@@ -29,9 +29,6 @@ object ShareUtils {
 
         try {
             intent.putExtra(Intent.EXTRA_STREAM, uri)
-            intent.putExtra(
-                Intent.EXTRA_TEXT,""
-            )
         } catch (e: Exception) {
             Toast.makeText(
                 context,

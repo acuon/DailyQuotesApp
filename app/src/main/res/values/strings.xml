@@ -19,11 +19,11 @@
     <string name="bookmarks">Go to your Bookmarked Quotes.</string>
     <string name="back">Go back to Quotes page.</string>
 
-    <string name="toogleBookMark">Bookmark</string>
+    <string name="toggleBookMark">Bookmark</string>
     <string name="share_description">Share Quote as an image</string>
     <string name="save_quote">Save quote</string>
 
-    <string name="daily_notif_tag">daily_motivation</string>
-    <string name="notif_title">Your daily dose of motivation is here!</string>
+    <string name="daily_notification_tag">daily_motivation</string>
+    <string name="notification_title">Your daily dose of motivation is here!</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

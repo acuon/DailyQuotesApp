@@ -63,10 +63,10 @@ class DailyQuoteWorker(
                 // setup notification builder
                 val builder = NotificationCompat.Builder(
                     context,
-                    context.getString(R.string.daily_notif_tag)
+                    context.getString(R.string.daily_notification_tag)
                 )
                     .setSmallIcon(R.drawable.ic_motivation)
-                    .setContentTitle(context.getString(R.string.notif_title))
+                    .setContentTitle(context.getString(R.string.notification_title))
                     .setContentText(
                         result.body()!![0].quote
                     )
@@ -91,8 +91,8 @@ class DailyQuoteWorker(
 
                     notificationManager.createNotificationChannel(
                         NotificationChannel(
-                            context.getString(R.string.daily_notif_tag),
-                            context.getString(R.string.daily_notif_tag),
+                            context.getString(R.string.daily_notification_tag),
+                            context.getString(R.string.daily_notification_tag),
                             NotificationManager.IMPORTANCE_DEFAULT
                         )
                     )

@@ -124,7 +124,7 @@
         android:backgroundTint="#323ADF"
         android:contentDescription="@string/save_quote"
         android:src="@drawable/ic_unbookmarked"
-        android:tooltipText="@string/toogleBookMark"
+        android:tooltipText="@string/toggleBookMark"
         app:borderWidth="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
